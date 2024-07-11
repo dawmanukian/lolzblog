@@ -1,0 +1,9 @@
+.page h1 {
+    color: #DD2F7C;
+    text-align: center;
+}
+.cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
