@@ -29,3 +29,7 @@
     gap: 25px;
     color: #DD2F7C;
 }
+.admin_btns {
+    display: flex;
+    gap: 15px;
+}

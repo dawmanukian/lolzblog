@@ -1,0 +1,15 @@
+.add_new {
+    height: 40px;
+    width: 150px;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    background: rgb(45, 106, 5);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
