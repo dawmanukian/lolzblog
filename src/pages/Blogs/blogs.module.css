@@ -7,3 +7,23 @@
     flex-direction: column;
     gap: 20px;
 }
+.btns {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 15px;
+    width: 100%;
+    justify-content: center;
+}
+.btns button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    border: none;
+    border-radius: 50%;
+    background: rgb(145, 150, 153);
+    color: #fff;
+    cursor: pointer;
+}

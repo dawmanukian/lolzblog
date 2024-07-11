@@ -1,12 +1,30 @@
 .card {
     height: 270px;
     width: 100%;
-    background: #F0F2F5;
+    background: #E4E6EB;
     border-radius: 17px;
-    padding: 20px;
+    display: flex;
+    gap: 15px;
+    cursor: pointer;
 }
 .card_img {
     width: 50%;
     height: 270px;
-    border-radius: 17px;
+    border-radius: 17px 0px 0px 17px;
+    object-fit: cover;
+}
+.card_text {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card_header {
+    font-weight: 900;
+    font-size: 22px;
+}
+.footer_card {
+    display: flex;
+    gap: 25px;
 }
