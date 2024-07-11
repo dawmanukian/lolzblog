@@ -27,3 +27,6 @@
     color: #fff;
     cursor: pointer;
 }
+.btns button:nth-child(1) {
+    background: #DD2F7C;
+}

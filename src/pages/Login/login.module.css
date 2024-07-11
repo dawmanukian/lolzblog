@@ -1,0 +1,24 @@
+.form {
+    display: grid;
+    grid-template-columns: 280px;
+    grid-template-rows: 40px 40px 40px;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 60px;
+}
+
+.form button {
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    background: green;
+    transition: all ease .5s;
+}
+
+.form input {
+    padding-left: 15px;
+}
+
+.form button:hover {
+    opacity: 70%;
+}

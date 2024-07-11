@@ -27,4 +27,5 @@
 .footer_card {
     display: flex;
     gap: 25px;
+    color: #DD2F7C;
 }
